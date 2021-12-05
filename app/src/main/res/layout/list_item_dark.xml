@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listindiv"
+    android:layout_marginTop="10dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/list_cardview_dark"
+        android:layout_width="match_parent"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:layout_height="130dp"
+        android:backgroundTint="@color/black"
+        app:cardCornerRadius="15dp"
+        >
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_format_quote_24"
+            app:tint="#f3e5ab">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/list_author_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="200dp"
+            android:text="Abraham Lincoln"
+            android:textColor="#fafad2"/>
+
+        <TextView
+            android:id="@+id/list_text_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="A house divided against itself cannot stand."
+            android:textColor="#fafad2"
+            android:textSize="15sp"/>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

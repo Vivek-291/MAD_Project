@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:id="@+id/menubottom"
+
+
+    <item android:id="@+id/save_menu"
+        android:title="Add to favoutites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:iconTint="@color/black"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/copy_menu"
+        android:title="Copy"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_content_copy_24"/>
+
+    <item android:id="@+id/share_menu"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"/>
+
+</menu>
