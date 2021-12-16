@@ -1,21 +1,26 @@
-# MAD_Project
-Quotes App
-This app displays Quotes quoted by some famous personalites. Apart from this user can also share, copy and save the quotes from this app.
+#MAD
+# MAD Assignment II (Quotes App)
 
-Step - 1 
-   After creating a new project, request app permission i.e Internet Permission.
+This Quotes app is an android application with user-friendly interface and easy to manage and display quotes. You can easily share and copy Quotes from this app.
 
-Step - 2
-    Then comes the designing portion, the UI is user friendly and eye catching.
 
-Step - 3
-    I've added list view at the home page, and the quotes which will be fetched will be displayed here.
+## How to build
 
-Step - 4
-    If the user clicks on a particular quote then a new activity will be started.
+1. Copy this repository's url and clone my project in android studio by pasting url hear.
 
-Step - 5
-    In this activity a bottom navigation is there containing 3 options ( Copy, Share, Save).
+![image1](https://user-images.githubusercontent.com/87127526/146227052-12ddf4ef-81fa-4488-9463-b61d8de07070.jpg)  
 
-Step - 6 
-     This app also has dark theme mode.
+2. Press get from VCS and past url.
+
+
+![image](https://user-images.githubusercontent.com/84489096/146390567-0947301c-bb4a-4a39-986a-63de590d6379.png)
+
+3. Now build the project bundle to use this app in multiple device.
+ 
+![image3](https://user-images.githubusercontent.com/87127526/146242535-bbfb3027-3638-48ff-87c4-bf5095e00aea.png)
+
+
+ 
+## Output
+
+![image](https://user-images.githubusercontent.com/84489096/146391062-c91fc140-fbec-4218-9965-f36624ed59d9.png)
